@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Jest Current Tests",
+      "request": "launch",
+      "type": "pwa-node",
+      "runtimeArgs": ["jest", "${fileBasename}"],
+      "runtimeExecutable": "npx"
+    }
+  ]
+}
